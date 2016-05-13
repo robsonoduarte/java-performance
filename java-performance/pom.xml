@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<artifactId>performance-testing</artifactId>
 	<groupId>br.com.mystudies</groupId>
-	<artifactId>java-performance</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
@@ -12,7 +12,7 @@
 	</properties>
 
 	<build>
-	<plugins>
+	<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -24,6 +24,9 @@
 			</plugin>
 		</plugins>
 	</build>
+
+
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -43,4 +46,7 @@
 			<version>3.3.2</version>
 		</dependency>
 	</dependencies>
+
+
+
 </project>
